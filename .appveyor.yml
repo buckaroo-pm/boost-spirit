@@ -84,9 +84,10 @@ before_build:
   # Install clcache
   - pip install clcache
   - clcache -M %CLCACHE_CACHESIZE%
+  - clcache -s  # print statistics
   # Run clcache-server
   - set CLCACHE_SERVER=1
-  - ps: Start-Process clcache-server.exe -PassThru
+  - ps: $ClcacheServerProcess = Start-Process clcache-server.exe -PassThru
 
 build_script:
   - bootstrap.bat --with-toolset=msvc
@@ -108,5 +109,11 @@ test_script:
   - set B2_ARGS=%B2_ARGS% warnings=on known-warnings=suppress warnings-as-errors=on
   - echo B2 argumets %B2_ARGS%
   - b2 %B2_ARGS% %PROJECT%\classic\test
+  - clcache -c  # trim cache
   - b2 %B2_ARGS% %PROJECT%\repository\test
+  - clcache -c  # trim cache
   - b2 %B2_ARGS% %PROJECT%\test
+
+after_test:
+  - clcache -s  # print clcache statistics
+  - ps: Stop-Process -Id $ClcacheServerProcess.Id

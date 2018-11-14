@@ -1,0 +1,19 @@
+[cxx]
+  cxxflags = -std=c++14
+  should_remap_host_platform = true
+
+[project]
+  ignore = .git
+
+[repositories]
+  buckaroo.github.buckaroo-pm.boost-assert = ./buckaroo/github/buckaroo-pm/boost-assert
+  buckaroo.github.buckaroo-pm.boost-bind = ./buckaroo/github/buckaroo-pm/boost-bind
+  buckaroo.github.buckaroo-pm.boost-config = ./buckaroo/github/buckaroo-pm/boost-config
+  buckaroo.github.buckaroo-pm.boost-core = ./buckaroo/github/buckaroo-pm/boost-core
+  buckaroo.github.buckaroo-pm.boost-detail = ./buckaroo/github/buckaroo-pm/boost-detail
+  buckaroo.github.buckaroo-pm.boost-integer = ./buckaroo/github/buckaroo-pm/boost-integer
+  buckaroo.github.buckaroo-pm.boost-mpl = ./buckaroo/github/buckaroo-pm/boost-mpl
+  buckaroo.github.buckaroo-pm.boost-preprocessor = ./buckaroo/github/buckaroo-pm/boost-preprocessor
+  buckaroo.github.buckaroo-pm.boost-static_assert = ./buckaroo/github/buckaroo-pm/boost-static_assert
+  buckaroo.github.buckaroo-pm.boost-type_traits = ./buckaroo/github/buckaroo-pm/boost-type_traits
+  buckaroo.github.buckaroo-pm.boost-utility = ./buckaroo/github/buckaroo-pm/boost-utility

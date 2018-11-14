@@ -8,6 +8,9 @@ version = "branch=master"
 package = "github.com/buckaroo-pm/boost-mpl"
 version = "branch=master"
 
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-tti"
+version = "branch=master"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-detail"

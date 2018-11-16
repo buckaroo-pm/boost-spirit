@@ -47,3 +47,7 @@ version = "branch=master"
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-phoenix"
 version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-foreach"
+version = "branch=master"

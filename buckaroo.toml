@@ -51,3 +51,7 @@ version = "branch=master"
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-foreach"
 version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-lexical_cast"
+version = "branch=master"

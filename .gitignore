@@ -9,4 +9,8 @@ test/lex/matlib_static.h
 buck-out
 buckaroo
 .buckconfig.local
+.buckconfig.d
 BUCKAROO_DEPS
+buckaroo_macros.bzl
+buckaroo-linux
+buckaroo-buckaroo_macros

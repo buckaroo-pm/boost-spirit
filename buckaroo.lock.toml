@@ -90,7 +90,7 @@ revision = "0d9de7ea384e6e70d788667bb78c94f2cfe8949a"
 
 [lock."github.com/buckaroo-pm/boost-concept_check"]
 versions = [ "branch=master" ]
-revision = "4dcd765d7933cb9419d9120cbf8df7d83e38f9db"
+revision = "a1412ec177bb12170fc64a174c55b31cfee853e7"
 
 [lock."github.com/buckaroo-pm/boost-config"]
 versions = [ "branch=master" ]
@@ -102,7 +102,7 @@ revision = "bb4226c58e17f8880779f19559a50e497f2bfcba"
 
 [lock."github.com/buckaroo-pm/boost-container_hash"]
 versions = [ "branch=master" ]
-revision = "ddd9a887f1f0253ded4455d455b3c54228067b74"
+revision = "0b9332d4df895e1077bab8ee34473a8882bfedf5"
 
 [lock."github.com/buckaroo-pm/boost-core"]
 versions = [ "branch=master" ]
@@ -198,7 +198,7 @@ revision = "4d01d0f9c0ae3ae3cd20e3cbfddbc9909ce8e064"
 
 [lock."github.com/buckaroo-pm/boost-range"]
 versions = [ "branch=master" ]
-revision = "10482c9459133c139137e459d8e1051246866983"
+revision = "2fcd53bd05419d4aedacacee1465f593433c15f0"
 
 [lock."github.com/buckaroo-pm/boost-ratio"]
 versions = [ "branch=master" ]
@@ -210,7 +210,7 @@ revision = "7a75e06a78e0481cb636412a62764f628ec8e56b"
 
 [lock."github.com/buckaroo-pm/boost-regex"]
 versions = [ "branch=master" ]
-revision = "4ff94fc09b98f94f31e9fec6bb9312ec0a0f724a"
+revision = "1db2ae17e5e5b188688bbab0fca61731b4d9d6d8"
 
 [lock."github.com/buckaroo-pm/boost-serialization"]
 versions = [ "branch=master" ]
@@ -246,11 +246,11 @@ revision = "d0cdf3f6cbc304c9a848f7de07970fc8841d4108"
 
 [lock."github.com/buckaroo-pm/boost-tuple"]
 versions = [ "branch=master" ]
-revision = "5ffb0abec6da0d9986690b32d20218769a50086b"
+revision = "5548bd44b949ccd04331c4fb25b0bb3c9b0db0d8"
 
 [lock."github.com/buckaroo-pm/boost-type_index"]
 versions = [ "branch=master" ]
-revision = "e5d869f860393e8744ea34c70456d5d6dde1c308"
+revision = "1ac6205cc64073c8142265daad63a7d734ead36e"
 
 [lock."github.com/buckaroo-pm/boost-type_traits"]
 versions = [ "branch=master" ]

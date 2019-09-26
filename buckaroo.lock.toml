@@ -1,2 +1,41 @@
-manifest = "2fd21af55022ac1f1128c33a1825de4d239c63c2396b25ca5f55efcb37acd4f8"
+manifest = "82ed49404678ad2af4079bf59e9783686dd8767f763666749ab56a1fe84f5f71"
 
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-optional"
+target = "//:optional"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.51.0" ]
+revision = "171d2ac727246bcb7ac5d0b7d008c74a724ed445"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "1.51.0" ]
+revision = "784e15d77cd9f02ee2da75a27e46b50a4343e385"
+
+[lock."github.com/buckaroo-pm/boost-move"]
+versions = [ "1.51.0" ]
+revision = "1308a79340738704252d474ae155b96a13c96463"
+
+[lock."github.com/buckaroo-pm/boost-mpl"]
+versions = [ "1.51.0" ]
+revision = "5da7ac00a6c9350aba2720af3f4d05610708aa35"
+
+[lock."github.com/buckaroo-pm/boost-optional"]
+versions = [ "1.51.0" ]
+revision = "eea1ddae80fdf8d2ecd9a70b09caa390fd755e00"
+
+[lock."github.com/buckaroo-pm/boost-preprocessor"]
+versions = [ "1.51.0" ]
+revision = "1e972c8e268661efe8de20c6624cdc88bc8ff634"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "1.51.0" ]
+revision = "ca853bd8456f027d7fc9daa87e616fb7619d94dd"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "1.51.0" ]
+revision = "fc1e6879f4ba327e8fa5671647648683c1f2138c"
+
+[lock."github.com/buckaroo-pm/boost-utility"]
+versions = [ "1.51.0" ]
+revision = "eaaaf89177ffc4b769a2e7d4ae33660ca398d913"

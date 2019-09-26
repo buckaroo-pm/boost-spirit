@@ -1,2 +1,9 @@
-manifest = "2fd21af55022ac1f1128c33a1825de4d239c63c2396b25ca5f55efcb37acd4f8"
+manifest = "22e0172827703867128577bc88b9e949fff345e3eb22cb957365405d7aee10fa"
 
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-optional"
+target = "//:optional"
+
+[lock."github.com/buckaroo-pm/boost-optional"]
+versions = [ "1.71.0" ]
+revision = "4acc8ef12f442d54041d67fd1a2600511d576158"

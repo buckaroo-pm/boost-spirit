@@ -18,7 +18,7 @@ revision = "0db7e2f103c1431a1cfa12b39d5287cf30db314f"
 
 [lock."github.com/buckaroo-pm/boost-optional"]
 versions = [ "1.32.0" ]
-revision = "21c015c23e7d1a879ce5324aa11ed026ee390c41"
+revision = "15e530e0b037ca8fed2d5b83d555303a16126e0a"
 
 [lock."github.com/buckaroo-pm/boost-preprocessor"]
 versions = [ "1.32.0" ]

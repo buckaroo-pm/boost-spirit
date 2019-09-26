@@ -1,1 +1,5 @@
 targets = [ "//:spirit" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-optional"
+version = "1.52.0"
